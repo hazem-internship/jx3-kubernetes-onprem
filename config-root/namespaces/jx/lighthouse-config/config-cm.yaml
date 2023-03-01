@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jx3-kubernetes-onprem
-      target_url: http://lighthouse-jx.10.0.0.100/merge/status
+      target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
 kind: ConfigMap
 metadata:
   creationTimestamp: null

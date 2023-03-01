@@ -23,4 +23,4 @@ spec:
             port:
               number: 8080
         pathType: ImplementationSpecific
-    host: "jenkins-myjenkins.10.0.0.100"
+    host: "jenkins-myjenkins.10.0.0.100.nip.io"
