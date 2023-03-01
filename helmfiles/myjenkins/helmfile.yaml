@@ -16,6 +16,7 @@ releases:
   - values.yaml
   - ../../versionStream/charts/jenkinsci/jenkins/values.yaml.gotmpl
   - jx-values.yaml
+  - job-values.yaml
 - chart: jxgh/jenkins-resources
   name: jenkins-resources
   values:
