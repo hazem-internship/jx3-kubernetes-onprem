@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "jenkins-ui-test-egfw9"
+  name: "jenkins-ui-test-lagmb"
   namespace: myjenkins
   annotations:
     "helm.sh/hook": test-success
