@@ -4,4 +4,15 @@ metadata:
   creationTimestamp: null
 spec:
   jenkinsServers:
-  - server: myjenkins
+  - groups:
+    - owner: hazem-internship
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: jenkinci
+        scheduler: in-repo
+    server: myjenkins
+  slack:
+    channel: '#jenkins-x-pipelines'
+    kind: failureOrNextSuccess
+    pipeline: release
