@@ -13,6 +13,8 @@ spec:
         scheduler: in-repo
       - name: spring1
         scheduler: in-repo
+      - name: maven
+        scheduler: in-repo
     server: myjenkins
   slack:
     channel: '#jenkins-x-pipelines'
