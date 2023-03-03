@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: hazem-internship
+    provider: github
+    repository: postegres
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: hazem-internship-postegres
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/hazem-internship/postegres.git
+  org: hazem-internship
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: postegres
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/hazem-internship/postegres
