@@ -3,6 +3,13 @@ kind: SourceConfig
 metadata:
   creationTimestamp: null
 spec:
+  groups:
+  - owner: hazem-internship
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: vv
+    scheduler: in-repo
   jenkinsServers:
   - groups:
     - owner: hazem-internship
