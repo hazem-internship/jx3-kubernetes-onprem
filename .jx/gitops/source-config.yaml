@@ -11,6 +11,8 @@ spec:
       repositories:
       - name: jenkinsfile
         scheduler: in-repo
+      - name: jenkinsfile1
+        scheduler: in-repo
     server: myjenkins
   slack:
     channel: '#jenkins-x-pipelines'
