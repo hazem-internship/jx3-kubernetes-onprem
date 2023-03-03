@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: postegres
     - name: vv
     scheduler: in-repo
   jenkinsServers:
