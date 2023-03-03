@@ -5,7 +5,8 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    chartKind: pages
+    chartRepository: https://github.com/hazem-internship/gow-new-1.git
     clusterName: kind
     devEnvApprovers:
     - todo
