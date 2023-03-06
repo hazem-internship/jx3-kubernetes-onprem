@@ -233,3 +233,14 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.5.0
+- namespace: jx-staging
+  path: helmfiles/jx-staging/helmfile.yaml
+  releases:
+  - firstDeployed: "2023-03-06T15:31:52Z"
+    lastDeployed: "2023-03-06T15:31:52Z"
+    name: postegres
+    releaseName: postegres
+    repositoryName: dev
+    repositoryUrl: https://hazem-internship.github.io/gow-new-1/
+    resourcePath: config-root/namespaces/jx-staging/postegres
+    version: 0.0.2

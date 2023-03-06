@@ -1,0 +1,10 @@
+# Source: postegres/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: postegres-postegres
+  annotations:
+    meta.helm.sh/release-name: 'postegres'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
