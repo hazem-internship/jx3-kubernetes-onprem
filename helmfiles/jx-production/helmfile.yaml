@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-production
+repositories:
+- name: dev
+  url: https://hazem-internship.github.io/gow-new-1/
+releases:
+- chart: dev/postegres
+  version: 0.0.2
+  name: postegres
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}

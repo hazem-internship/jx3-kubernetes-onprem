@@ -1,0 +1,26 @@
+# Source: postegres/templates/db-postgresql.yaml
+apiVersion: "acid.zalan.do/v1"
+kind: postgresql
+metadata:
+  name: "myteam-demodb"
+  annotations:
+    meta.helm.sh/release-name: 'postegres'
+  namespace: jx-production
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  teamId: "myteam"
+  volume:
+    size: 1Gi
+  numberOfInstances: 2
+  users:
+    myowner: # database owner
+    - superuser
+    - createdb
+    foo_user: [] # role for application foo
+  databases:
+    demodb: myowner # dbname: owner
+  preparedDatabases:
+    bar: {}
+  postgresql:
+    version: "13"
