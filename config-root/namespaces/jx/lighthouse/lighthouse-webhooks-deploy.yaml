@@ -25,7 +25,7 @@ spec:
       annotations:
         prometheus.io/port: "2112"
         prometheus.io/scrape: "true"
-        jenkins-x.io/hash: 'c60df0ef15556613db8dcff087a9c43a5544278019837c1f97b927ef3a79dd90'
+        jenkins-x.io/hash: 'b3d254bdbf8d54498334f43f33a179bd64ab020fa2c01be87373a8b432afe410'
     spec:
       serviceAccountName: lighthouse-webhooks
       containers:
