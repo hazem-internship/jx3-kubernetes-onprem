@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - hazem-internship/projet-cd
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - hazem-internship/springboot-jenkins-multibranch-pipeline
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -34,6 +38,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       hazem-internship/postegres:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      hazem-internship/projet-cd:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -69,6 +78,20 @@ data:
       - dog
       - pony
       hazem-internship/postegres:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      hazem-internship/projet-cd:
       - approve
       - assign
       - help
@@ -124,6 +147,9 @@ data:
       trusted_org: hazem-internship
     - repos:
       - hazem-internship/postegres
+      trusted_org: hazem-internship
+    - repos:
+      - hazem-internship/projet-cd
       trusted_org: hazem-internship
     - repos:
       - hazem-internship/springboot-jenkins-multibranch-pipeline
