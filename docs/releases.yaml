@@ -235,8 +235,7 @@
     version: 0.5.0
 - namespace: jx-staging
   path: helmfiles/jx-staging/helmfile.yaml
-- namespace: jx-production
-  path: helmfiles/jx-production/helmfile.yaml
+
   releases:
   - apiVersion: v1
     appVersion: 0.0.2
@@ -248,5 +247,5 @@
     releaseName: projet-cd
     repositoryName: dev
     repositoryUrl: https://hazem-internship.github.io/gow-new-1/
-    resourcePath: config-root/namespaces/jx-production/projet-cd
+
     version: 0.0.2
