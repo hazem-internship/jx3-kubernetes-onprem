@@ -23,6 +23,8 @@ spec:
         scheduler: in-repo
       - name: maven
         scheduler: in-repo
+      - name: springboot-jenkins-multibranch-pipeline
+        scheduler: in-repo
     server: myjenkins
   slack:
     channel: '#jenkins-x-pipelines'
