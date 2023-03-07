@@ -1,0 +1,10 @@
+# Source: projet-cd/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: projet-cd-projet-cd
+  annotations:
+    meta.helm.sh/release-name: 'projet-cd'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
