@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: postegres
+    - name: springboot-jenkins-multibranch-pipeline
     - name: vv
     scheduler: in-repo
   jenkinsServers:
