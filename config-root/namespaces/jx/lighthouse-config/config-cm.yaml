@@ -9,6 +9,7 @@ data:
       enabled:
         hazem-internship/jx3-kubernetes-onprem: true
         hazem-internship/postegres: true
+        hazem-internship/springboot-jenkins-multibranch-pipeline: true
         hazem-internship/vv: true
     plank: {}
     pod_namespace: jx
@@ -23,6 +24,7 @@ data:
       merge_method:
         hazem-internship/jx3-kubernetes-onprem: merge
         hazem-internship/postegres: merge
+        hazem-internship/springboot-jenkins-multibranch-pipeline: merge
         hazem-internship/vv: merge
       queries:
       - labels:
@@ -36,6 +38,7 @@ data:
         repos:
         - hazem-internship/jx3-kubernetes-onprem
         - hazem-internship/postegres
+        - hazem-internship/springboot-jenkins-multibranch-pipeline
         - hazem-internship/vv
       - labels:
         - updatebot
@@ -48,6 +51,7 @@ data:
         repos:
         - hazem-internship/jx3-kubernetes-onprem
         - hazem-internship/postegres
+        - hazem-internship/springboot-jenkins-multibranch-pipeline
         - hazem-internship/vv
       target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
 kind: ConfigMap
