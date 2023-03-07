@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        hazem-internship/angular: true
         hazem-internship/jx3-kubernetes-onprem: true
         hazem-internship/postegres: true
         hazem-internship/projet-cd: true
@@ -23,6 +24,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        hazem-internship/angular: merge
         hazem-internship/jx3-kubernetes-onprem: merge
         hazem-internship/postegres: merge
         hazem-internship/projet-cd: merge
@@ -39,6 +41,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jx3-kubernetes-onprem
+        - hazem-internship/angular
         - hazem-internship/postegres
         - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
@@ -53,6 +56,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/jx3-kubernetes-onprem
+        - hazem-internship/angular
         - hazem-internship/postegres
         - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
