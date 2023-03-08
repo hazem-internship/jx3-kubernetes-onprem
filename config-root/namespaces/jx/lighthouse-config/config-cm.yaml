@@ -10,7 +10,6 @@ data:
         hazem-internship/angular: true
         hazem-internship/jx3-kubernetes-onprem: true
         hazem-internship/postegres: true
-        hazem-internship/projet-cd: true
         hazem-internship/springboot-jenkins-multibranch-pipeline: true
         hazem-internship/vv: true
     plank: {}
@@ -27,7 +26,6 @@ data:
         hazem-internship/angular: merge
         hazem-internship/jx3-kubernetes-onprem: merge
         hazem-internship/postegres: merge
-        hazem-internship/projet-cd: merge
         hazem-internship/springboot-jenkins-multibranch-pipeline: merge
         hazem-internship/vv: merge
       queries:
@@ -43,7 +41,6 @@ data:
         - hazem-internship/jx3-kubernetes-onprem
         - hazem-internship/angular
         - hazem-internship/postegres
-        - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
         - hazem-internship/vv
       - labels:
@@ -58,7 +55,6 @@ data:
         - hazem-internship/jx3-kubernetes-onprem
         - hazem-internship/angular
         - hazem-internship/postegres
-        - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
         - hazem-internship/vv
       target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
