@@ -5,7 +5,7 @@ metadata:
   name: projet-cd-projet-cd
   labels:
     draft: draft-app
-    chart: "projet-cd-0.0.3"
+    chart: "projet-cd-0.0.7"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'projet-cd'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: projet-cd-projet-cd
       containers:
       - name: projet-cd
-        image: "ghcr.io/hazem-internship/projet-cd:0.0.3"
+        image: "ghcr.io/hazem-internship/projet-cd:0.0.7"
         imagePullPolicy: IfNotPresent
         env:
         - name: VERSION
-          value: 0.0.3
+          value: 0.0.7
         envFrom: null
         ports:
         - name: http
