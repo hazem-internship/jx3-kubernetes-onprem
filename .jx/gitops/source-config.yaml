@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: angular
     - name: postegres
+    - name: projet-cd
     - name: springboot-jenkins-multibranch-pipeline
     - name: vv
     scheduler: in-repo
