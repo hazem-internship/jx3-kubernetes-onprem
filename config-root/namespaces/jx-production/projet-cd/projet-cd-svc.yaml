@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: projet-cd
   labels:
-    chart: "projet-cd-0.0.2"
+    chart: "projet-cd-0.0.7"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'projet-cd'
