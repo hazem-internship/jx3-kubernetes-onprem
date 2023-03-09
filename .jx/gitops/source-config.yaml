@@ -12,6 +12,7 @@ spec:
     - name: postegres
     - name: projet-cd
     - name: springboot-jenkins-multibranch-pipeline
+    - name: thingsboard
     - name: vv
     scheduler: in-repo
   - owner: hazemTa
