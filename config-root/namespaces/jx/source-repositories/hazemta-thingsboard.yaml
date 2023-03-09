@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: hazemTa
+    provider: github
+    repository: thingsboard
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: hazemta-thingsboard
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/hazemTa/thingsboard.git
+  org: hazemTa
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: thingsboard
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/hazemTa/thingsboard

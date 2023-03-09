@@ -26,6 +26,10 @@ data:
       repos:
       - hazem-internship/vv
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hazemTa/thingsboard
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -62,6 +66,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       hazem-internship/vv:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      hazemTa/thingsboard:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -156,6 +165,20 @@ data:
       - cat
       - dog
       - pony
+      hazemTa/thingsboard:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
     requiresig: {}
     sigmention: {}
     size:
@@ -183,6 +206,9 @@ data:
     - repos:
       - hazem-internship/vv
       trusted_org: hazem-internship
+    - repos:
+      - hazemTa/thingsboard
+      trusted_org: hazemTa
     welcome:
     - message_template: Welcome
 kind: ConfigMap
