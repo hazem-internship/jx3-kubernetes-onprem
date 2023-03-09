@@ -109,7 +109,7 @@
 	      <td></td>
 	    </tr>
     <tr>
-		      <td colspan='5'><h3>jx-production</h3></td>
+
 		    </tr>
 	    <tr>
 	      <td>projet-cd</td>
