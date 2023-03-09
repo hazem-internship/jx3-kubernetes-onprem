@@ -14,6 +14,12 @@ spec:
     - name: springboot-jenkins-multibranch-pipeline
     - name: vv
     scheduler: in-repo
+  - owner: hazemTa
+    provider: https://github.com
+    providerKind: github
+    repositories:
+    - name: thingsboard
+    scheduler: in-repo
   jenkinsServers:
   - groups:
     - owner: hazem-internship
