@@ -11,5 +11,7 @@ releases:
 - chart: dev/projet-cd
   version: 0.0.13
   name: projet-cd
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
