@@ -1,0 +1,20 @@
+# Source: projet-cd/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: projet-cd
+  labels:
+    chart: "projet-cd-0.0.13"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    meta.helm.sh/release-name: 'projet-cd'
+  namespace: jx-staging
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 4200
+    protocol: TCP
+    name: http
+  selector:
+    app: projet-cd-projet-cd
