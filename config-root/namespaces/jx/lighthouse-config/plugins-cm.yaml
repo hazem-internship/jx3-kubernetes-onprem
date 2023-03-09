@@ -24,6 +24,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - hazem-internship/thingsboard
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - hazem-internship/vv
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -61,6 +65,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       hazem-internship/springboot-jenkins-multibranch-pipeline:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      hazem-internship/thingsboard:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -151,6 +160,20 @@ data:
       - cat
       - dog
       - pony
+      hazem-internship/thingsboard:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
       hazem-internship/vv:
       - approve
       - assign
@@ -202,6 +225,9 @@ data:
       trusted_org: hazem-internship
     - repos:
       - hazem-internship/springboot-jenkins-multibranch-pipeline
+      trusted_org: hazem-internship
+    - repos:
+      - hazem-internship/thingsboard
       trusted_org: hazem-internship
     - repos:
       - hazem-internship/vv
