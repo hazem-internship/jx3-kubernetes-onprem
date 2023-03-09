@@ -250,3 +250,16 @@
     version: 0.0.14
 - namespace: jx-production
   path: helmfiles/jx-production/helmfile.yaml
+  releases:
+  - apiVersion: v1
+    appVersion: 0.0.14
+    description: A Helm chart for Kubernetes
+    firstDeployed: "2023-03-09T13:45:32Z"
+    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
+    lastDeployed: "2023-03-09T13:45:32Z"
+    name: projet-cd
+    releaseName: projet-cd
+    repositoryName: dev
+    repositoryUrl: https://hazem-internship.github.io/gow-new-1/
+    resourcePath: config-root/namespaces/jx-production/projet-cd
+    version: 0.0.14
