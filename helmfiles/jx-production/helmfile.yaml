@@ -7,5 +7,9 @@ namespace: jx-production
 repositories:
 - name: dev
   url: https://hazem-internship.github.io/gow-new-1/
+releases:
+- chart: dev/projet-cd
+  version: 0.0.12
+  name: projet-cd
 templates: {}
 renderedvalues: {}
