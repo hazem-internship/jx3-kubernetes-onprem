@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "jenkins-ui-test-dudtx"
+  name: "jenkins-ui-test-rapm5"
   namespace: myjenkins
   annotations:
     "helm.sh/hook": test-success
