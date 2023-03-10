@@ -12,9 +12,7 @@ data:
         hazem-internship/postegres: true
         hazem-internship/projet-cd: true
         hazem-internship/springboot-jenkins-multibranch-pipeline: true
-        hazem-internship/thingsboard: true
         hazem-internship/vv: true
-        hazemTa/thingsboard: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -31,9 +29,7 @@ data:
         hazem-internship/postegres: merge
         hazem-internship/projet-cd: merge
         hazem-internship/springboot-jenkins-multibranch-pipeline: merge
-        hazem-internship/thingsboard: merge
         hazem-internship/vv: merge
-        hazemTa/thingsboard: merge
       queries:
       - labels:
         - approved
@@ -49,9 +45,7 @@ data:
         - hazem-internship/postegres
         - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
-        - hazem-internship/thingsboard
         - hazem-internship/vv
-        - hazemTa/thingsboard
       - labels:
         - updatebot
         missingLabels:
@@ -66,9 +60,7 @@ data:
         - hazem-internship/postegres
         - hazem-internship/projet-cd
         - hazem-internship/springboot-jenkins-multibranch-pipeline
-        - hazem-internship/thingsboard
         - hazem-internship/vv
-        - hazemTa/thingsboard
       target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
 kind: ConfigMap
 metadata:
